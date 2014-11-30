@@ -13,8 +13,8 @@ Vim Configuration allow you to ...
 
 2. Set up
 
-    `
+    ```bash
     git clone git@github.com:thang19911991/vim-tool.git vim-tool
     cd vim-tool
     sh install.sh
-    `
+    ```
