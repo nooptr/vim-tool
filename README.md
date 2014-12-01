@@ -3,6 +3,7 @@
 Vim Configuration allow you to ...
 * Setting color theme for vim
 * Syntax checker (PHP, JSON, Javascript, C, C++ ...)
+* Git completion
 
 ## Quick Start
 
@@ -13,8 +14,16 @@ Vim Configuration allow you to ...
 
 2. Set up
 
+a. Install Vim Color
+
     ```bash
     git clone git@github.com:thang19911991/vim-tool.git vim-tool
     cd vim-tool
     sh install.sh
+   ```
+
+b. Install Git completion
+
+    ```bash
+    sh install-git-completion.sh
     ```
