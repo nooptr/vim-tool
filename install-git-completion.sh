@@ -8,8 +8,8 @@
 dotfiles=(git-completion.bash)
 for file in ${dotfiles[*]}
 do
-    cp $file ~/.$file
+    cp git-completion/$file ~/.$file
 done
 
 # Install git completion
-cat git-completion-statement >> $HOME/.bash_profile
+cat git-completion/git-completion-statement >> $HOME/.bash_profile
