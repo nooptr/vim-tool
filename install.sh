@@ -33,7 +33,7 @@ fi
 
 # Make .vimrc file
 dotfiles=(vimrc)
-for file in ${dotfiles[*]}
+for file in ${dotfiles[@]}
 do
     cp $file ~/.$file
 done

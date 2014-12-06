@@ -31,7 +31,7 @@ if isdirectory($HOME."/.vim/bundle/Vundle.vim")
     call vundle#end()
 endif
 
-set mouse=a                     " Enable mouse
+#set mouse=a                     " Enable mouse
 set t_Co=256
 set clipboard=unnamed
 set noswapfile
