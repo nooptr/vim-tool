@@ -42,8 +42,7 @@ done
 # Install plugins in vundle
 vim +PluginInstall +qall
 
-echo "Fixing error for git (There was a problem with the editor 'vi'
-)"
+#echo "Fixing error for git (There was a problem with the editor 'vi')"
 
 git config --global core.editor /usr/bin/vim
 
