@@ -1,6 +1,5 @@
 # ----------------------------------"
 # author : Ngo Van Thang            "
-# email  : thangnvbkhn@gmail.com    "
 # ----------------------------------"
 #!bin/bash
 
